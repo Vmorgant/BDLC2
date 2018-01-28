@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/RelativeLayout1"
+
+    android:background="@drawable/fond"
+    android:fitsSystemWindows="true"
+    android:foregroundGravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/icon_bdlc" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fond_arrondi"
+            android:elevation="10dp"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/editText_num_etu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    android:hint="Numéro étudiant"
+                    android:inputType="textNoSuggestions"
+                    android:textColor="@color/second_color_clear"
+                    android:textSize="20sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fond_arrondi"
+            android:elevation="10dp"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/editText_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    android:hint="Mot de passe"
+                    android:imeOptions="actionSend"
+                    android:inputType="textPassword"
+                    android:textColor="@color/second_color_clear"
+                    android:textSize="20sp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bouton_arrondi"
+            android:elevation="10dp"
+            android:padding="18dp"
+            android:text="Se connecter"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

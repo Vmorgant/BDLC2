@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_details_commande"
+        android:icon="@drawable/icon_basket"
+        android:title="Details commande" />
+
+    <item
+        android:id="@+id/navigation_details_user"
+        android:icon="@drawable/icon_user"
+        android:title="Details profil" />
+
+</menu>

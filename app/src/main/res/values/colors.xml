@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/bleu</color>
+    <color name="colorPrimaryDark">@color/bleu_fonce_transparent</color>
+    <color name="colorAccent">@color/bleu_fonce</color>
+
+    <color name="bleu_fonce_transparent">#9916658c</color>
+
+
+    <color name="first_color_dark">@color/bleu_fonce</color>
+    <color name="first_color_clear">@color/bleu</color>
+
+    <color name="second_color_clear">@color/bleu_fonce</color>
+    <color name="second_color_dark">@color/bleu_fonce</color>
+
+    <!--  autres-->
+    <color name="bleu">#1a7aa9</color>
+    <color name="bleu_fonce">#16658c</color>
+
+    <color name="or">#D68910</color>
+    <color name="or_clair">#ffd700</color>
+    <color name="rouge_clair">#C0392B</color>
+    <color name="rouge_fonce">#C0392B</color>
+    <color name="vert">#3aa860</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#BFFFFFFF</color>
+    <color name="white_fab_text">#DFFFFFFF</color>
+    <color name="white_transparent_foncé">#1FFFFFFF</color>
+    <color name="gris">#a7a9ac</color>
+
+    <color name="bleu_fonce_transparent_2">#5F16658c</color>
+    <color name="transparent">#00000000</color>
+
+
+
+
+
+
+<!--
+    <color name="colorPrimary">@color/rouge_fonce</color>
+    <color name="colorPrimaryDark">@color/or</color>
+    <color name="colorAccent">@color/or</color>
+
+
+    <color name="first_color_dark">@color/or_clair</color>
+    <color name="first_color_clear">@color/or_clair</color>
+
+    <color name="second_color_clear">@color/rouge_fonce</color>
+    <color name="second_color_dark">@color/rouge_fonce</color>
+
+
+    <color name="jaune">#e7c131</color>
+    <color name="violet">#ba9dd5</color>
+    <color name="bleu">@color/rouge_fonce</color>
+    <color name="bleu_fonce">#16658c</color>
+    <color name="marron">#a0785d</color>
+    <color name="vert">#3aa860</color>
+    <color name="rouge_clair">#ea7973</color>
+    <color name="rouge_fonce">#cf594e</color>-->
+
+
+
+
+    <color name="background_white">#FFFFFF</color>
+</resources>

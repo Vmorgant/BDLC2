@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BDLC</string>
+    <string name="version">v. 2.28.1.18</string>
+    <string name="a_propos">Application développée par\nJonathan DAUMONT (promo 2018)\n\nBDLC 2017-2018\n\nVersion v. 2.28.1.18\n"</string>
+    <string name="text_gift">Bienvenue ! Ici vous pouvez offrir un cadeau pour un ENSIMIEN :)</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+
+</resources>

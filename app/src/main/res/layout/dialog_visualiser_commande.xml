@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@color/second_color_dark"
+        android:elevation="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+
+            android:layout_weight="1"
+
+            android:text="Détails commande"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/textTitre"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="85dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_delete_white"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_donwload"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/textTitre"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_download_white"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/textTitre"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_annuler"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/textView_prix_panier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="test"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_idpanier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:text="Numéro de commande : ..."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listView_articles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

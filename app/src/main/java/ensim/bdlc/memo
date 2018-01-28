@@ -1,0 +1,69 @@
+//DODO CODE EXEMPLE
+--------------------------------
+blur -> https://stackoverflow.com/questions/31641973/how-to-blur-background-images-in-android
+
+ /**
+     * ATTRIBUTES
+     */
+     //INTERFACE
+     //BDD
+     //ARRAYLIST
+    //OTHER
+
+     //GET INTERFACE
+      //INITIALIZE
+      //LISTENER
+
+AFFICHER aucun historique ou aucune commande
+                        //TODO AJOUTER IMAGE IN BDD
+                       // Bitmap tmp = BitmapFactory.decodeResource(getResources(),R.drawable.icon_add_user);
+                        //tableNews.add_news(new News("title 2 ","details 2",tmp));
+//TODO LIST
+
+faire le test de connexion partout
+
+Faire l'ajout de news -> via la bdd (plus simple)
+
+on retire l'argent plus tard, lorsque la commande a été donnée ? à déterminer
+
+//TODO tester si quantité dispo
+
+on retire l'argent plus tard, lorsque la commande a été donnée ? à déterminer
+
+tester si quantité dispo L’INVENTAIRE DOIT ETRE FAIT
+
+Onglet “créer une commande” inaccesible → un pop-up gris avec “fab3” apparait en bas de l’écran à venir prochainement
+
+Est ce que tu pourrais ajouter un troisième onglet nommé “Formules” après boissons et snacks ? en cours
+
+Peut-on relier la photo de profil à celle de facebook pour simplifier l’upload ? je sais pas faire à voir
+Ou importer une photo depuis son smartphone ? Oui sera utilisé pour l’ajout d’actu également à venir
+
+Logo BDLC ou Kfet pour icone ? en cours j’attends les infografists
+
+Augmenter la hauteur de la bannière de l’onglet “Recharge compte” ça marche
+
+Peut-on augmenter la taille de la pastille “compte” ? ça marche
+
+Ajouter un onglet Speedburger : choix du burger, boissons ou non, avec deadline au mardi 20h suivant pour pouvoir commander à voir
+
+en bannière on pourrait mettre la date de la prochaine livraison pour indiquer quand à lieu la bouffe :)à voir
+
+
+Ajouter un onglet pour les prêt de Raclette : formulaire à remplir dans l’app ou un lien vers un doc pour l’imprimer, à voir avec Philippe  à voir
+
+
+Fil d’actu :
+lien vers groupe facebook “BDLC” à venir prochainement
+
+intégration des réseaux sociaux ? je sais pas faire à voir
+
+
+À la première ouverture de l’appli, faire un petit tuto d’utilisation que l’on peut retrouver dans la section “à propos” ? à voir
+
+
+
+
+
+
+

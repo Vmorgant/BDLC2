@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_boissons"
+        android:icon="@drawable/icon_drink"
+        android:title="Boissons" />
+
+    <item
+        android:id="@+id/navigation_snacks"
+        android:icon="@drawable/icon_product"
+        android:title="Snacks" />
+
+    <item
+        android:id="@+id/navigation_formules"
+        android:icon="@drawable/icon_formule"
+        android:title="Formules" />
+
+</menu>
